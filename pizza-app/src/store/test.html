@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+      background-image: url('../assets/logo.png');
+    }
+    div:hover {
+      transition: all 10s;
+      transform: rotate(10turn);
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+    li:before {
+      content: "/"
+    }
+
+    .container{
+      height: 1000px;
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+  </style>
+</head>
+<body>
+  <div>
+
+  </div>
+</body>
+</html>
